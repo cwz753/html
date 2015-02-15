@@ -1,0 +1,150 @@
+<html>
+<head>
+
+<style type="text/css">
+form {overflow: scroll??;}
+
+</style>
+</head>
+
+
+<body>
+<h2>Personal Information</h2>
+
+<form>
+<!-- text input-->
+<p>please enter your first name: <input type="text" size="20" maxlength="20"/><br />please enter your last name: <input type="text" size="10"maxlength="20" value="Last Name"/></p>
+
+
+<p>passwords: <input type="password" name="password"></p>
+
+
+
+<textarea name="comments" cols="500" rows="5"> we really appreciate your comments, please type them here. thank you. </textarea>
+
+
+
+<!-- radio button-->
+<b>Contact me by: </b><br />
+<input type="radio" name="ContactMe" value="A" checked="checked">Email<br />
+<input type="radio" name="ContactMe" value="B">Regular Mail<br />
+<input type="radio" name="ContactMe" value="C">Phone<br />
+<input type="radio" name="ContactMe" value="D" >Fax<br />
+
+<br />
+<br />
+<br />
+<!-- checkbox -->
+Which kind of transpotation are you prefer? <i>(could select more than one options)</i><br />
+<input type="checkbox" name="trans" value="bus"> Bus <br />
+<input type="checkbox" name="trans" value="taxi" checked="checked"> taxi <br />
+<input type="checkbox" name="trans" value="train"> train <br />
+<input type="checkbox" name="services" value="plane"> plane <br />
+
+
+
+<br />
+<br />
+<br />
+<!-- drop down menus-->
+Select your favorite fruit:
+<select name="Favorite Fruit" size="2" muptiple="multiple">
+<option value="apple">Apple</option>
+<option value="pear">Pear</option>
+<option value="pineapple"  selected="selected">P</option>
+<option value="melon">Melon</option>
+</select>
+<br />
+
+Select your favorite color
+<select name="Colors" muptiple="multiple">
+<option value="R">Red</option>
+<option value="B">Blue</option>
+<option value="Y"  selected="selected">Yellow</option>
+<option value="G">Green</option>
+
+<optgroup label="others">
+<option value="grey"> Grey</option>
+<option value="black"> Black<option>
+</optgroup>
+</select>
+
+
+
+<br />
+<br />
+<br />
+<!-- upload file-->
+<input type="file" name="Photoupload" size="10" />
+
+
+<br />
+<br />
+<br />
+<!-- button-->
+<input type="submit" value="Submit" border="5"/>
+<input type="reset" value="reset" />
+<input type="button" value="button" />
+
+
+<button type="submit" width="20">SSS</button>
+<button type="reset" width="10">RRR</button>
+<button type="button" width="30">BBB</button>
+</form>
+
+
+
+
+<hr />
+
+test my self
+<!-- test myself-->
+<h1>Email a Camper</h1>
+<p>You can use this form to send email to me or other camper member of your choice. You are required to enter your name and email address, in case.....</p>
+<p> Email is downloaded each evening and given to the recipients each morning at breakfast. </p>
+<form>
+Your Name: <input type="text" name="Name" size=30; maxlength="100" />
+<br /><br />
+Your Email: <input type="text" name="Email" size="30" />
+<br /><br />
+Who is this message for?<br />
+<select name="People" multiple="multiple">
+
+<option value=""> Please select</option>
+<optgroup label="Faculty">
+	<option value="Alice"> Alice </option>
+	<option value="Bob" selected="selected"> Bob </option>
+	<option value="Charles"> Charles </option>
+	<option value="Doodle"> Doodle </option>
+</optgroup>
+<optgroup label="Management">
+	<option value="Shirley" selected="selected"> Shirley </option>
+	<option value="Charley" selected="selected"> Charley </option>
+</optgroup>
+<optgroup label="Staff">
+	<option value="Tom"> Tommy </option>
+	<option value="Lulu" selected="selected"> Lulu </option>
+</optgroup>
+</select><input type="text" size="30" name="receipient /">
+<br /><br />
+
+Your Message:<br />
+<textarea name="commentsWriting" cols="100" rows="2">Type your comments here </textarea><br /><br />
+Or you can upload a file here: <br />
+<input type="file" name="CommentsUpload" size="50" /> 
+<button type="submit">Submit</button>
+
+
+<br /><br />
+Would you like a response?<br />
+<input type="radio" name="response" value="no">No response necessary, just have fun! <br />
+<input type="radio" name="response" value="email" checked="checked">Email  me later <br />
+<input type="radio" name="response" value="call">Call me later <br />
+
+<br /><br />
+<input type="button" value="Send Message" />
+
+
+</form>
+</body>
+</html>
